@@ -1325,6 +1325,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1267153996}
   m_CullTransparentMesh: 1
+--- !u!1 &1498650938 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3309506080539600471, guid: 6274ac23dbd161b4d89f91ea969b10ca, type: 3}
+  m_PrefabInstance: {fileID: 754519815}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1606150306
 GameObject:
   m_ObjectHideFlags: 0
@@ -1577,6 +1582,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1694003088}
+  - component: {fileID: 1694003089}
   m_Layer: 0
   m_Name: ObjSpawn
   m_TagString: Untagged
@@ -1599,6 +1605,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1826751537}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1694003089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694003087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f2a7754660d9d645a6818b99562e747, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 1498650938}
 --- !u!1 &1826751535
 GameObject:
   m_ObjectHideFlags: 0
@@ -1763,7 +1782,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Speed: 7
   ItemSpawn: {fileID: 1694003087}
-  ObjSpawn: {fileID: 0}
   item1: {fileID: 542130810}
   InventoryList: []
 --- !u!1 &1857416843

@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class PlayerActive : MonoBehaviour
 {
-    [SerializeField] public float Speed;
+    public float Speed;
     public GameObject ItemSpawn;
     public Image item1;
     public List<GameObject> InventoryList;
